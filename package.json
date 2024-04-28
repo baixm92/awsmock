@@ -1,0 +1,13 @@
+{
+  "name": "demoroot",
+  "version": "1.0.0",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "admin": "npm run dev -w ./apps/admin",
+    "driver": "npm run dev -w ./apps/driver",
+    "user": "npm run dev -w ./apps/user"
+  }
+}
