@@ -10,11 +10,6 @@
       "StackName": "amplify-basebackend-dev-24ccc",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:283308957689:stack/amplify-basebackend-dev-24ccc/7c471710-0524-11ef-b403-0e606554f081",
       "AmplifyAppId": "d36ivw93q3lrhc"
-    },
-    "categories": {
-      "api": {
-        "basebackend": {}
-      }
     }
   }
 }
