@@ -1,0 +1,25 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "mysqlHost",
+      "environmentVariableName": "MYSQL_HOST"
+    },
+    {
+      "cloudFormationParameterName": "mysqlPort",
+      "environmentVariableName": "MYSQL_PORT"
+    },
+    {
+      "cloudFormationParameterName": "mysqlUser",
+      "environmentVariableName": "MYSQL_USER"
+    },
+    {
+      "cloudFormationParameterName": "mysqlPassword",
+      "environmentVariableName": "MYSQL_PASSWORD"
+    },
+    {
+      "cloudFormationParameterName": "mysqlDbName",
+      "environmentVariableName": "MYSQL_DB_NAME"
+    }
+  ]
+}

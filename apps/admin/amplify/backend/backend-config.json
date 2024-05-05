@@ -1,5 +1,85 @@
 {
-  "api": {},
-  "function": {},
+  "api": {
+    "Terms": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "TermsFunction": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_TermsFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_TermsFunction_mysqlDbName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_TermsFunction_mysqlHost": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_TermsFunction_mysqlPassword": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_TermsFunction_mysqlPort": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_TermsFunction_mysqlUser": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_TermsFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TermsFunction"
+        }
+      ]
+    }
+  },
   "storage": {}
 }

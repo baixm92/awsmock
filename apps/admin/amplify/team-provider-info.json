@@ -10,6 +10,22 @@
       "StackName": "amplify-basebackend-dev-24ccc",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:283308957689:stack/amplify-basebackend-dev-24ccc/7c471710-0524-11ef-b403-0e606554f081",
       "AmplifyAppId": "d36ivw93q3lrhc"
+    },
+    "categories": {
+      "function": {
+        "TermsFunction": {
+          "mysqlHost": "123",
+          "mysqlPort": "3306",
+          "mysqlUser": "adminbaixm",
+          "mysqlPassword": "baixmpass",
+          "mysqlDbName": "admin_mock",
+          "deploymentBucketName": "amplify-basebackend-dev-24ccc-deployment",
+          "s3Key": "amplify-builds/TermsFunction-414e7078376b51504f7a-build.zip"
+        }
+      },
+      "api": {
+        "Terms": {}
+      }
     }
   }
 }

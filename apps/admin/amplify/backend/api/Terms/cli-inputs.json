@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/terms": {
+      "name": "/terms",
+      "lambdaFunction": "TermsFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
